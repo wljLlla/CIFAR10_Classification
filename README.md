@@ -136,7 +136,7 @@
 ![截屏2021-11-13 上午10.38.34](https://github.com/wljLlla/CIFAR10_Classification/blob/main/image/1.png)
 
 ```
-    BatchSize = 200  
+    		BatchSize = 200  
 ```
 
 ![截屏2021-11-13 上午10.51.44](https://github.com/wljLlla/CIFAR10_Classification/blob/main/image/2.png)
@@ -181,10 +181,10 @@
 
 Loss对比
 
-![image-20211113111104176](https://github.com/wljLlla/CIFAR10_Classification/blob/main/image/Loss.png)
+![image-20211113111104176](https://github.com/wljLlla/CIFAR10_Classification/blob/main/image/Loss.jpg)
 
 Accuracy对比
 
-![image-20211113111558604](https://github.com/wljLlla/CIFAR10_Classification/blob/main/image/Accuracy.png)
+![image-20211113111558604](https://github.com/wljLlla/CIFAR10_Classification/blob/main/image/Accuracy.jpg)
 
 可以发现，随着BatchSize的增长，收敛速度会上升，但是更容易陷入到局部最小值中，最后导致准确率不如小的BatchSize。
