@@ -133,7 +133,7 @@
 
         BatchSize = 100
 
-![截屏2021-11-13 上午10.38.34](/Users/apple/Desktop/截屏2021-11-13 上午10.38.34.png)
+![截屏2021-11-13 上午10.38.34](https://github.com/wljLlla/CIFAR10_Classification/blob/main/image/1.png)
 
 ```
     BatchSize = 200  
