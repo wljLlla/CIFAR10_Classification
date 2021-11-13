@@ -139,52 +139,52 @@
     BatchSize = 200  
 ```
 
-![截屏2021-11-13 上午10.51.44](/Users/apple/Desktop/截屏2021-11-13 上午10.51.44.png)
+![截屏2021-11-13 上午10.51.44](https://github.com/wljLlla/CIFAR10_Classification/blob/main/image/2.png)
 
 ```
 		BatchSize = 300
 ```
 
-![截屏2021-11-13 上午10.53.29](/Users/apple/Desktop/截屏2021-11-13 上午10.53.29.png)
+![截屏2021-11-13 上午10.53.29](https://github.com/wljLlla/CIFAR10_Classification/blob/main/image/3.png)
 
 ```
 		BatchSize = 400
 ```
 
-![截屏2021-11-13 上午10.54.20](/Users/apple/Desktop/截屏2021-11-13 上午10.54.20.png)
+![截屏2021-11-13 上午10.54.20](https://github.com/wljLlla/CIFAR10_Classification/blob/main/image/4.png)
 
 ```
 		BatchSize = 500
 ```
 
-![截屏2021-11-13 上午10.55.29](/Users/apple/Desktop/截屏2021-11-13 上午10.55.29.png)
+![截屏2021-11-13 上午10.55.29](https://github.com/wljLlla/CIFAR10_Classification/blob/main/image/5.png)
 
 ```
 		BatchSize = 600
 ```
 
-![截屏2021-11-13 上午10.57.08](/Users/apple/Desktop/截屏2021-11-13 上午10.57.08.png)
+![截屏2021-11-13 上午10.57.08](https://github.com/wljLlla/CIFAR10_Classification/blob/main/image/6.png)
 
 ```
 		BatchSize = 700
 ```
 
-![截屏2021-11-13 上午10.58.24](/Users/apple/Desktop/截屏2021-11-13 上午10.58.24.png)
+![截屏2021-11-13 上午10.58.24](https://github.com/wljLlla/CIFAR10_Classification/blob/main/image/7.png)
 
 ```
 		BatchSize = 800
 ```
 
-![截屏2021-11-13 上午10.59.02](/Users/apple/Desktop/截屏2021-11-13 上午10.59.02.png)
+![截屏2021-11-13 上午10.59.02](https://github.com/wljLlla/CIFAR10_Classification/blob/main/image/8.png)
 
 不同BatchSize的Loss与Accuracy的对比
 
 Loss对比
 
-![image-20211113111104176](/Users/apple/Library/Application Support/typora-user-images/image-20211113111104176.png)
+![image-20211113111104176](https://github.com/wljLlla/CIFAR10_Classification/blob/main/image/Loss.png)
 
 Accuracy对比
 
-![image-20211113111558604](/Users/apple/Library/Application Support/typora-user-images/image-20211113111558604.png)
+![image-20211113111558604](https://github.com/wljLlla/CIFAR10_Classification/blob/main/image/Accuracy.png)
 
 可以发现，随着BatchSize的增长，收敛速度会上升，但是更容易陷入到局部最小值中，最后导致准确率不如小的BatchSize。
